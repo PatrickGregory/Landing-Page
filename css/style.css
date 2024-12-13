@@ -1,0 +1,55 @@
+/* navbar */
+.navbar{
+    opacity: 0.75;
+}
+.dropdown:hover> .dropdown-menu {
+    display: block;
+    opacity: 1 !important;
+}
+.dropstart:hover> .dropdown-menu{
+    display: block;
+    right: 100%;
+    top: 10%;
+}
+/* animated photo */
+.animation{
+    animation: bounce 5.5s infinite;
+}
+@keyframes bounce{
+    10%{
+        height: 100%;
+        width: 100%;
+    }
+    20%{
+        height: 100%;
+        width: 100%;
+    }
+    30%{
+        height: 100%;
+        width: 100%;
+    }
+    30%{
+        height: 100%;
+        width: 100%;
+        transform: translateY(10%);
+    }
+}
+.top-img{
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: 1.5s ease;
+}
+.position-relative{
+    align-items: center;
+}
+.top-img:hover{
+    opacity: 1;
+}
+/* footer */
+.highlight{
+    text-decoration: none;
+}
+.highlight:hover{
+    color: cyan !important;
+}
